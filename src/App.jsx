@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import LoadingScreen from "./components/LoadingScreen";
-import profilePic from "./assets/profile.JPG";
+import profilePic from "./assets/profile.jpg";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
